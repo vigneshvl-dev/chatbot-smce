@@ -1,7 +1,7 @@
 @echo off
 title D.esk AI Deployment Script (New Repo)
 echo ======================================================
-echo 🚀 DEPLOYING TO https://github.com/vigneshvl-dev/D.esk-Ai
+echo 🚀 DEPLOYING TO https://vigneshvl-dev.github.io/chatbot-smce/
 echo ======================================================
 echo.
 
@@ -12,7 +12,7 @@ cd /d "c:\Users\DELL\Documents\D.esk Ai"
 if not exist ".git" (
     echo [1/4] Initializing Git...
     git init
-    git remote add origin https://github.com/vigneshvl-dev/D.esk-Ai.git
+    git remote add origin https://github.com/vigneshvl-dev/chatbot-smce.git
 )
 
 :: 3. Git Operations
@@ -30,7 +30,7 @@ echo.
 echo ======================================================
 echo ✅ DEPLOYMENT ATTEMPTED!
 echo ======================================================
-echo Please check: https://vigneshvl-dev.github.io/D.esk-Ai/
+echo Please check: https://vigneshvl-dev.github.io/chatbot-smce/
 echo.
 echo If it still doesn't work, ensure "GitHub Pages" is enabled 
 echo in your repo settings on GitHub.com!
