@@ -15,47 +15,35 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <a href="home.html" class="nav-logo">
-            <div class="nav-logo-icon">
-                <img src="https://i.postimg.cc/c1tz21fv/SMCOE-Autonomous-Anna-(1).png" alt="Stella Mary's College of Engineering Logo" class="nav-college-logo" />
-            </div>
-            <div class="nav-brand">
-                <span class="nav-brand-name">D.esk <span>AI</span></span>
-                <span class="nav-brand-sub">Stella Mary's College of Engineering</span>
-            </div>
-        </a>
-        <ul class="nav-links">
-            <li><a href="home.html" id="nav-home">🏠 Home</a></li>
-            <li><a href="services.html" id="nav-services">⚡ Services</a></li>
-            <li><a href="contact.html" id="nav-contact">📬 Contact</a></li>
-            <li><a href="account.html" id="nav-account">👤 Account</a></li>
-        </ul>
-        <div class="nav-actions">
-            <a href="login.html" class="nav-btn nav-btn-outline" id="btn-login">Sign In</a>
-            <a href="account.html" class="nav-btn nav-btn-primary" id="btn-dashboard">Dashboard</a>
-        </div>
-        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
-    </nav>
-    <div class="mobile-nav" id="mobile-nav">
-        <a href="home.html">🏠 Home</a>
-        <a href="services.html">⚡ Services</a>
-        <a href="contact.html">📬 Contact</a>
-        <a href="account.html">👤 Account</a>
-        <a href="login.html">🔑 Sign In</a>
-    </div>
+    <div class="loader-container">
+        <!-- Main Loading Card -->
+        <div class="loading-card glass-card">
 
-    <!-- MAIN CONTENT -->
-    <main class="main-content">
-        <section class="hero-section">
-            <div class="hero-content">
-                <h1 class="hero-title">Welcome to <span class="green">D.esk AI</span></h1>
-                <p class="hero-desc">Your AI-powered assistant for Stella Mary's College of Engineering. Get instant answers, access services, and more!</p>
-                <a href="services.html" class="btn btn-primary">Explore Services</a>
+            <div class="logo-area">
+                <div class="college-logo">
+                    <img src="https://i.postimg.cc/c1tz21fv/SMCOE-Autonomous-Anna-(1).png" alt="Stella Mary's College of Engineering Logo" />
+                </div>
+                <h2 class="college-title">Stella Mary's College of Engineering</h2>
             </div>
-        </section>
-    </main>
+
+            <div class="content-area">
+                <h1 class="welcome-text">Welcome to D.esk AI</h1>
+                <p class="subtitle">AI-Powered College Assistant</p>
+                <p class="college-name">Stella Mary's College Of Engineering</p>
+            </div>
+
+            <div class="loading-status">
+                <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot big"></span>
+                </div>
+                <div class="status-text">LOADING D.ESK AI...</div>
+            </div>
+
+            <!-- Hidden Enter button (no longer used) -->
+        </div>
+    </div>
 
     <!-- Background Robot (Faint/Animated) -->
     <div class="robot-bg">
@@ -67,17 +55,7 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-brand">D.esk <span>AI</span></div>
-        <div class="footer-links">
-            <a href="home.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-            <a href="login.html">Login</a>
-        </div>
-        <p class="footer-text">© 2026 D.esk AI · Stella Mary's College of Engineering · by Jashwin J ,Vignesh V L</p>
-    </footer>
+    <script src="js/loading.js"></script>
 
 </body>
 
