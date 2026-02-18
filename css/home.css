@@ -433,6 +433,21 @@
     flex: 1;
 }
 
+.chat-name-with-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.chat-header-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: white;
+    padding: 2px;
+}
+
 .chat-name {
     font-size: 1rem;
     font-weight: 700;
