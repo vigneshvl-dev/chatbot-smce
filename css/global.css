@@ -706,6 +706,33 @@ body {
     color: var(--text-muted);
 }
 
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 12px 0;
+}
+
+.footer-socials a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+}
+
+.footer-socials a:hover {
+    background: var(--green);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(186, 255, 141, 0.3);
+}
+
 .footer-links {
     display: flex;
     justify-content: center;
