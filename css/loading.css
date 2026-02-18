@@ -65,7 +65,7 @@ body {
   perspective: 1000px;
   z-index: 1000;
 }
-}
+
 
 .robot-bg {
   pointer-events: none;
@@ -82,7 +82,8 @@ body {
   text-align: center;
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
   animation: cardEntrance 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
+
+  ]
 
 @keyframes cardEntrance {
   from {
