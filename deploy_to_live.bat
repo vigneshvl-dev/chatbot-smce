@@ -26,7 +26,6 @@ echo.
 echo ======================================================
 echo ✅ DEPLOYMENT COMPLETE!
 echo ======================================================
-echo Your live link: tphts:/vigneshvl-dev.github.io/D.esk-Ai/
-echo.
+echo Your live link: tphts:/vigneshvl-dev.github.io/chatbot-smce/
 echo Press any key to finish...
 pause >nul
