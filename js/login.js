@@ -52,7 +52,7 @@ document.getElementById('reg-pass')?.addEventListener('input', function () {
 const DEMO_USERS = [
     {
         id: '24CSE001', password: 'demo123',
-        name: 'Arjun Krishnamurthy', dept: 'CSE', year: '2nd Year',
+        name: 'VIGNESH VL', dept: 'CSE', year: '2nd Year',
         gpa: 8.5, attendance: 87, credits: 45, totalCredits: 120,
         type: 'Hostel Student', email: '24cse001@stellamarys.edu.in',
         nextExam: '2025-02-20', phone: '+91 98765 43210'
@@ -116,7 +116,7 @@ async function handleRegister(e) {
 
     setUser(newUser);
     showToast('Account created successfully! Welcome to D.esk AI! 🎉', 'success', 4000);
-    setTimeout(() => { window.location.href = 'account.html'; }, 1500);
+    setTimeout(() => { window.location.href = 'home.html'; }, 1500);
 }
 
 /* ── Social Login ──────────────────────────────────────────────────────── */
